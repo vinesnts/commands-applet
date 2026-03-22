@@ -1,0 +1,50 @@
+{
+    "icon": "utilities-terminal-symbolic",
+    "terminal": "auto",
+    "menu": [
+        {
+            "title": "Menu 1",
+            "type": "submenu",
+            "icon": "go-next-symbolic",
+            "submenu": [
+                {
+                    "title": "Submenu 1",
+                    "command": "echo 'Submenu 1'; exec bash",
+                    "icon": "go-next-symbolic"
+                },
+                {
+                    "title": "Submenu 2",
+                    "command": "echo 'Submenu 2'; exec bash",
+                    "icon": "go-next-symbolic"
+                },
+                {
+                    "title": "Submenu 3",
+                    "command": "echo 'Submenu 3'; exec bash",
+                    "icon": "go-next-symbolic"
+                }
+            ]
+        },
+        {
+            "title": "Menu 2",
+            "type": "submenu",
+            "icon": "go-next-symbolic",
+            "submenu": [
+                {
+                    "title": "Submenu 1",
+                    "command": "echo 'Submenu 1'; exec bash",
+                    "icon": "go-next-symbolic"
+                },
+                {
+                    "title": "Submenu 2",
+                    "command": "echo 'Submenu 2'; exec bash",
+                    "icon": "go-next-symbolic"
+                },
+                {
+                    "title": "Submenu 3",
+                    "command": "echo 'Submenu 3'; exec bash",
+                    "icon": "go-next-symbolic"
+                }
+            ]
+        }
+    ]
+}

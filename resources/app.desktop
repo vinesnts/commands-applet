@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Commands Applet
+Comment=Run custom commands from the COSMIC panel
+Type=Application
+
+Exec=commands-applet
+Icon=utilities-terminal-symbolic
+
+Terminal=false
+StartupNotify=false
+
+Categories=Utility;System;
+Keywords=commands;terminal;automation;cosmic;
+
+NoDisplay=true
+
+X-CosmicApplet=true
+X-CosmicHoverPopup=Auto
