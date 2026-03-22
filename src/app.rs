@@ -383,6 +383,11 @@ impl AppModel {
     ) -> widget::Column<'a, Message> {
         let mut col = widget::column();
 
+        col = col.push(
+            widget::container(widget::text(""))
+                .height(8)
+        );
+
         for item in items {
 
             let icon: Element<_> = if let Some(icon_name) = &item.icon {
@@ -532,7 +537,10 @@ impl AppModel {
             col = col.push(reload_item);
         }
 
-
+        col = col.push(
+            widget::container(widget::text(""))
+                .height(8)
+        );
         col
     }
 
